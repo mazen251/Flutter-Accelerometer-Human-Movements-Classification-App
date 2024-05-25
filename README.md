@@ -1,31 +1,32 @@
 # Accelerometer Movement Prediction App
 Welcome to the Accelerometer Movement Prediction App! This Flutter application utilizes TensorFlow Lite and device sensors to capture accelerometer data and make real-time predictions using a machine learning model.
 
-##Table of Contents
-Introduction
-Features
-Installation
-Usage
-Project Structure
-Contributing
-License
-Acknowledgements
+## Table of Contents
+- Introduction
+- Features
+- Installation
+- Usage
+- Project Structure
+- Contributing
+- License
+- Acknowledgements
 
-##Introduction
+## Introduction
 The Accelerometer Movement Prediction App is designed to demonstrate how to integrate TensorFlow Lite with Flutter to make predictions based on real-time accelerometer data. This project showcases how to capture sensor data, process it, and feed it into a pre-trained machine learning model to obtain predictions.
 
-##Features
-Real-time accelerometer data capture
-Integration with TensorFlow Lite for on-device machine learning
-User-friendly interface displaying sensor data and model predictions
-Cross-platform support (Android, iOS)
+## Features
+- **Real-time accelerometer data capture**
+- **Integration with TensorFlow Lite for on-device machine learning**
+- **User-friendly interface displaying sensor data and model predictions**
+- **Cross-platform support (Android, iOS)**
 
-##Installation
-###Prerequisites:
-Flutter SDK: Install Flutter
-TensorFlow Lite model: Ensure you have a .tflite model file
+## Installation
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+### Prerequisites:
+- Flutter SDK: Install Flutter
+- TensorFlow Lite model: Ensure you have a .tflite model file
 
-###Steps
+### Steps
 ```sh
 #Clone the Repository
 git clone https://github.com/mazen251/Flutter-Accelerometer-Human-Movements-Classification-App.git
@@ -46,30 +47,33 @@ flutter pub get
 #Run the App, Connect your device or start an emulator, then run:
 flutter run
 ```
-##Usage
-###Launch the App
-Start the app on your device/emulator.
+## Usage
+### Launch the App
+- Start the app on your device/emulator.
 
-###View Accelerometer Data
-The app displays real-time accelerometer data (X, Y, Z axes).
+### View Accelerometer Data
+- The app displays real-time accelerometer data (X, Y, Z axes).
 
-###View Model Predictions
-The app makes predictions based on the accelerometer data and displays the results for different classes.
+### View Model Predictions
+- The app makes predictions based on the accelerometer data and displays the results for different classes.
 
-##Contributing
+## Contributing
 contributions are welcomed to improve this project. To contribute, please follow these steps:
 
-1- Fork the repository.
-2- Create a new branch (git checkout -b feature/your-feature).
-3- Commit your changes (git commit -m 'Add some feature').
-4- Push to the branch (git push origin feature/your-feature).
-5- Open a pull request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature).
+- Commit your changes (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/your-feature).
+- Open a pull request.
 
-##License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+This project is licensed under the MIT License. See the `LICENSE` for more details.
 
-##Acknowledgements
-Flutter
-TensorFlow Lite
-Sensors Plus
+## Contact
+Mazen Walid - [@Mazen Walid](https://www.linkedin.com/in/mazen-walid-225582208/)
+
+## Acknowledgements
+- Flutter
+- TensorFlow Lite
+- Sensors Plus
 
